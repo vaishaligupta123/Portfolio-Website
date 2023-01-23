@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(199, 193, 193);
+    width: 434px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px; 
+    padding: 33px 0;
+}
+
+.main{
+    /* background-color: aqua; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgb(255, 127, 217); */
+    height: 55vh;
+    display: flex;
+    width: 80vw;
+    margin: 144px auto;
+    justify-content:space-around;
+}
+.devpic img{
+    height: 55vh;
+}
+.devinfo{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 80px;
+    font-family: 'Teko', sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.buttons{
+    padding-top: 20px;
+}
+.buttons button{
+    
+padding:9px 14px;
+border-radius: 22px;
+color: white;
+background-color:rgb(80, 80, 148);
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(80, 80, 148);
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
